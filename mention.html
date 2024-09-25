@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mention</title>
+</head>
+<body>
+
+    <h1>I like JavaScript! <h2>&#128513;</h2></h1>
+
+    <div class="result" id="result"></div>
+    
+    <script>
+
+        var nome, idade, nt1, nt2
+
+        nome = window.prompt("Qual seu nome: ")
+        idade = window.prompt("Qual sua idade: ")
+        nt1 = window.prompt("Qual a nota da sua 1° Atividade: ")
+        nt2 = window.prompt("Qual a nota da sua 2° Atividade: ")
+
+        var resultado = `<p>Nome: ${nome}</p>`;
+        resultado += `<p>Idade: ${idade}</p>`;
+
+        if (idade >= 18) {
+            resultado += "<p>Você é maior de idade!</p>";
+        } else {
+            resultado += "<p>Você é menor de idade!</p>";
+        }
+
+        if (nt1 >= 6 || nt2 >= 6) {
+            resultado += "<p>Você foi aprovado!</p>";
+        } else {
+            resultado += "<p>Você foi reprovado, melhore!</p>";
+        }
+        document.getElementById("result").innerHTML = resultado;
+    </script>
+</body>
+</html>
