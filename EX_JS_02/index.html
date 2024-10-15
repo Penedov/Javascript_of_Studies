@@ -6,17 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
-    <h2></h2>
-    <h3></h3>
-    <h4></h4>
-    <h5></h5>
-    <h6></h6>
-    <script src="js/Funcaobd.js"></script>
-    <script src="js/cubo.js"></script>
-    <script src="js/celcius.js"></script>
-    <script src = "js/triangulo.js"></script>
-    <script src="js/areaCirculo.js"></script>    
-    <script src="js/invertido.js"></script>
+    <section style="background-color: rgba(219, 224, 75, 0.871);" >
+        <h1>Exercises of Function</h1>
+    </section>
+    <main> 
+        <h2>Functions</h2>
+        <div id="greeting"></div>
+        <div id="cube"></div>
+        <div id="Celsius"></div>
+        <div id="triangle"></div>
+        <div id="cicle"></div>
+        <div id="rversernum"></div>
+        <div id="countVowels"></div>
+        <div id="Investment"></div>
+        <div id="factorial"></div>
+        <div id="countCharacter"></div>
+        <div id="isprime"></div>
+    </main>
+    <script src="Function.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            greeting('greeting');
+            cube('cube');
+            fahrenheitToCelsius('Celsius');
+            triangleArea('triangle');
+            circle('cicle');
+            reverseNumber('rversernum');
+            countVowels('countVowels');
+            calculateInvestment('Investment');
+            factorial('factorial');
+            countCharacter('countCharacter');
+            isPrime('isprime');
+        });
+    </script>
 </body>
 </html>
