@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(116, 90, 151);
+}
+.clickme{
+    background-color: rgb(30, 87, 87);
+    color: rgb(250, 235, 215);
+    width: 200px;
+    left: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+input{
+    width: 50px;
+    background-color: rgb(146, 122, 179);
+}
+pre {
+    font-family: 'Times New Roman', Times, serif;
+}
